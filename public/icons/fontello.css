@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('fontello.eot?76953695');
+  src: url('fontello.eot?76953695#iefix') format('embedded-opentype'),
+       url('fontello.woff2?76953695') format('woff2'),
+       url('fontello.woff?76953695') format('woff'),
+       url('fontello.ttf?76953695') format('truetype'),
+       url('fontello.svg?76953695#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('fontello.svg?76953695#fontello') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-add:before { content: '\e800'; } /* '' */
+.icon-bell:before { content: '\e801'; } /* '' */
+.icon-bookmark:before { content: '\e802'; } /* '' */
+.icon-broken-link:before { content: '\e803'; } /* '' */
+.icon-calendar:before { content: '\e804'; } /* '' */
+.icon-down-open-big:before { content: '\e805'; } /* '' */
+.icon-check:before { content: '\e806'; } /* '' */
+.icon-dot-3:before { content: '\e807'; } /* '' */
+.icon-basket-1:before { content: '\e808'; } /* '' */
+.icon-clock:before { content: '\e809'; } /* '' */
+.icon-compass:before { content: '\e80a'; } /* '' */
+.icon-controls:before { content: '\e80b'; } /* '' */
+.icon-down-cloud:before { content: '\e80c'; } /* '' */
+.icon-enter:before { content: '\e80d'; } /* '' */
+.icon-error:before { content: '\e80e'; } /* '' */
+.icon-file:before { content: '\e80f'; } /* '' */
+.icon-flag:before { content: '\e810'; } /* '' */
+.icon-graph:before { content: '\e811'; } /* '' */
+.icon-heart:before { content: '\e812'; } /* '' */
+.icon-hide:before { content: '\e813'; } /* '' */
+.icon-home:before { content: '\e814'; } /* '' */
+.icon-id-card:before { content: '\e815'; } /* '' */
+.icon-idea:before { content: '\e816'; } /* '' */
+.icon-key:before { content: '\e817'; } /* '' */
+.icon-location:before { content: '\e818'; } /* '' */
+.icon-lock:before { content: '\e819'; } /* '' */
+.icon-more-1:before { content: '\e81a'; } /* '' */
+.icon-more-2:before { content: '\e81b'; } /* '' */
+.icon-mute:before { content: '\e81c'; } /* '' */
+.icon-pin:before { content: '\e81d'; } /* '' */
+.icon-plus:before { content: '\e81e'; } /* '' */
+.icon-search:before { content: '\e81f'; } /* '' */
+.icon-route:before { content: '\e820'; } /* '' */
+.icon-save:before { content: '\e821'; } /* '' */
+.icon-settings:before { content: '\e822'; } /* '' */
+.icon-share:before { content: '\e823'; } /* '' */
+.icon-star:before { content: '\e824'; } /* '' */
+.icon-switch:before { content: '\e825'; } /* '' */
+.icon-unlock:before { content: '\e826'; } /* '' */
+.icon-user:before { content: '\e827'; } /* '' */
+.icon-volume:before { content: '\e828'; } /* '' */
+.icon-zoom-in:before { content: '\e829'; } /* '' */
+.icon-zoom-out:before { content: '\e82a'; } /* '' */

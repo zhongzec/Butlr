@@ -1,0 +1,17 @@
+.Avatar {
+  border-radius: 100%;
+  background-color: #2E2C64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.Greeting {
+  color: #2E2C64;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  margin: 2rem 0;
+}

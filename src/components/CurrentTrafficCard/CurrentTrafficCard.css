@@ -1,0 +1,84 @@
+.current-foot {
+  color: var(--plum-2);
+  margin-top: 44px;
+}
+.current-head {
+  margin: 1.5rem 0;
+}
+.current-head-left h4 {
+  line-height: 24px;
+}
+.current-head-right {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 40px;
+  color: var(--purple-1);
+}
+
+.viz {
+  --padding: 5rem;
+  position: relative;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.viz__chart__min {
+  position: absolute; /*toggle*/
+  display: inline-block;
+  width: 4.5rem;
+  text-align: right;
+  top: 188px; /*toggle*/
+  left: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.viz__chart__max {
+  position: absolute; /*toggle*/
+  display: inline-block;
+  width: 4.5rem;
+  text-align: left;
+  top: 188px; /*toggle*/
+  right: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.occupancy__info {
+  width: calc(100% - var(--padding) * 2);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: -35px;
+}
+.occupancy__value {
+  color: var(--purple-1);
+  font-size: 40px;
+  font-weight: 600;
+}
+.occupancy__label {
+  color: var(--text-muted);
+  font-weight: 300;
+  font-size: 14px;
+}
+.occupancy__status {
+  background-color: var(--purple-1);
+  border-radius: 4rem;
+  padding: 1rem 3rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.occupancy__status span {
+  margin-bottom: -0.5rem;
+}

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "/fonts/poppins.css";
+@import "/icons/fontello.css";
+
+html,
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  /* font-family: "Helvetica Neue", sans-serif; */
+  font-size: 14px;
+}
+
+:root {
+  --red-1: #FE698A;
+  --red-2: #F73F64;
+  --red-3: #E21B40;
+  --red-4: #C50224;
+
+  --orange-1: #F75708;
+  --orange-2: #FE7B31;
+  --orange-3: #D84402;
+  --orange-4: #B93601;
+
+  --purple-1: #644DFF;
+  --purple-2: #A799FF;
+  --purple-3: #503DCC;
+  --purple-4: #110D2B;
+
+  --plum-1: #2E2C64;
+  --plum-2: #39396F;
+  --text-muted: #AFAFBB;
+}
+
+/* FIXME too generic */
+h3 {
+  font-weight: 500;
+  color: var(--plum-1);
+}
+h4 {
+  font-size: 20px;
+  color: var(--plum-2);
+}
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* defualt font-size for icon font */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-size: 20px;
+}

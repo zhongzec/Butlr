@@ -1,0 +1,19 @@
+.Search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Search__input {
+  background-color: transparent;
+  outline: none;
+  min-width: 14rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.Search__input::placeholder {
+  color: #ccc;
+}
+i.icon-search:before {
+  color: #ccc;
+  font-size: 23px;
+}

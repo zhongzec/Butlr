@@ -1,0 +1,42 @@
+.Home {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Home >>> .viz img {
+  width: 100%;
+}
+
+.Cards {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+@media only screen and (min-width: 768px) {
+  .Cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1600px) {
+  .Cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .Cards .Card:first-child {
+    margin-left: 0;
+  }
+
+  .Cards .Card:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,33 @@
+.Card {
+  border-radius: 9px;
+  min-height: 30rem;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  grid-template-areas:
+    "a b . d"
+    ". c . ."
+  ;
+}
+.header__icon {
+  grid-area: a;
+  align-self: end;
+}
+.header__title {
+  grid-area: b;
+  align-self: end;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header__subtitle {
+  grid-area: c;
+  font-size: 14px;
+  line-height: 16px;
+}
+.header__etc {
+  grid-area: d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
